@@ -22,7 +22,7 @@ export default function Social() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="https://www.facebook.com/">
+                    <Link href="https://instagram.com/sh.anshan4975?igshid=OGQ5ZDc2ODk2ZA==">
                         <FontAwesomeIcon icon={faInstagram} />
                         <span className="sr-only">Instagram</span>
                     </Link>
