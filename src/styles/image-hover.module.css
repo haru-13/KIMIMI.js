@@ -1,0 +1,39 @@
+.hover {
+    position: relative;
+    width: auto;
+    height:213px;
+    overflow: hidden;
+  }
+  .hover .hoverImg {
+    margin: 0;
+    padding: 0;
+  }
+  .hoverImg img {
+    width: 100%;
+    height: 100%;
+  }
+  .hover .hoverText {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*topを-100%にして非表示*/
+    top: -100%;
+    left: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.65);
+    /*ホバーの動き方*/
+    transition: .35s ease-in-out;
+  }
+  .hover .hoverText .text1 {
+    font-size: 22px;
+    padding: 10px 20px;
+  }
+  .hover .hoverText .text2 {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  /*ホバーエフェクト*/
+  .hover:hover .hoverText {
+    /*topを0にして上からスライド*/
+    top: 0;
+  }

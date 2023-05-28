@@ -1,0 +1,36 @@
+.flexContainer {
+    composes: sideBySide from "src/styles/utils.module.css";
+    gap: var(--space-md);
+    margin: var(--space-md)0 var(--space-lg);
+}
+
+.sidebar {
+    width: 240px;
+    position: sticky;
+    top: 40px;
+    align-self: flex-start;
+}
+
+.sidebar * {
+    text-align: left;
+}
+
+
+
+/* isを使うと引数のものをまとめて選択できるらしい：sassもどき */
+.sidebar :is(div, ul) {
+    /* width: fit-content; */
+    /* margin-left: auto; */
+    place-items: flex-end;
+    place-content: flex-end;
+}
+
+@media (min-width:768px) {
+    .main {
+        width: 768px;
+
+    }
+    /* .sidebar * {
+        text-align: right;
+    } */
+}

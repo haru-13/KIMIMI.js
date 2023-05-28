@@ -1,0 +1,96 @@
+:root {
+    /* カラー */
+    --white: #ffffff;
+    --gray-10: #eeeeee;
+    --gray-25: #aaaaaa;
+    --gray-50: #707070;
+    --gray-75: #444444;
+    --black: #222222;
+    --accent: #0d87e0;
+
+
+    /* フォントサイズ */
+
+    /*本文16-18px*/
+    --body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
+    /* ディスプレイ72-160 */
+    --display: clamp(4.5rem, 1.83rem + 11.34vw, 10rem);
+    /* 見出し32-64 */
+    --heading1: clamp(2rem, 1.3rem + 3vw, 4rem);
+    /* 見出し24-27 */
+    --heading2: clac(ver(--body) * 1.5);
+    /* 見出し19.2-21.6 */
+    --heading3: clac(ver(--body) * 1.2);
+    /* モバイル14-27 */
+    --small-heading2: clamp(0.875rem, -0.75rem + 130vw, 1.6875rem);
+    /* モバイル12-23 */
+    --small-heading3: clac(ver(--small-heading2) * 0.86);
+
+
+    /* 余白・間隔 */
+
+    /* 20-30 */
+    --space-xs: clamp(1.25rem, 1rem + 0.98vw, 1.875rem);
+    /* 30-45 */
+    --space-sm: calc(var(--space-xs) * 1.5);
+    /* 40-60 */
+    --space-md: calc(var(--space-xs) * 2);
+    /* 60-90 */
+    --space-lg: calc(var(--space-xs)* 3);
+    /* 80-120 */
+    --space-xl: calc(var(--space-xs) * 4);
+    /* 20-60 */
+    --space-jump: clamp(1.25rem, 0.35rem + 3.8vw, 3.75rem);
+}
+
+/* 基本設定 */
+
+body {
+    color: var(--black);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    font-size: var(--body);
+}
+
+h1 {
+    font-size: var(--heading1);
+}
+
+h2 {
+    font-size: var(--heading2);
+}
+
+h3 {
+    font-size: var(--heading3);
+}
+
+/* next/image */
+
+span > img {
+    transition: 0.2s;
+}
+
+/* リセット */
+
+body,
+h1,
+h2,
+h3,
+p,
+figure,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
