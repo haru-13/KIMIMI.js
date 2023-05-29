@@ -15,7 +15,7 @@ export default function Social() {
         <div>
             <ul className={styles.list}>
                 <li>
-                    <Link href="https://twitter.com/">
+                    <Link href="https://twitter.com/kimimi_clothes?s=11">
                         <FontAwesomeIcon icon={faTwitter} />
 
                         <span className="sr-only">Twitter</span>
