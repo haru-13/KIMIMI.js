@@ -14,13 +14,13 @@ export default function Social() {
     return (
         <div>
             <ul className={styles.list}>
-                {/* <li>
+                <li>
                     <Link href="https://twitter.com/kimimi_clothes?s=11">
                         <FontAwesomeIcon icon={faTwitter} />
 
                         <span className="sr-only">Twitter</span>
                     </Link>
-                </li> */}
+                </li>
                 <li>
                     <Link href="https://instagram.com/sh.anshan4975?igshid=OGQ5ZDc2ODk2ZA==">
                         <FontAwesomeIcon icon={faInstagram} />
