@@ -28,7 +28,7 @@ export default function Social() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="https://paypayfleamarket.yahoo.co.jp/user/p54639982">
+                    <Link href="/">
                         <FontAwesomeIcon icon={faCartShopping} />
                         <span className="sr-only">shop</span>
                     </Link>
