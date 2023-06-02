@@ -38,6 +38,7 @@ export default function Meta({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH 
             <meta property="og:image:width" content={imgW} />
             <meta property="og:image:hight" content={imgH} />
             <meta name="twitter:card" content="summary_large_image" />
+            <meta name="google-site-verification" content="LCZGumjflxWxqQY4K6fDqbXxzF20v-5GJtimoUWUHak" />
             
         </Head>
     );
